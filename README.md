@@ -1,4 +1,5 @@
 # Go API Gateway
+[Русская версия README](README_RU.md)
 
 HTTP API gateway with a configuration API, reverse proxy, and request logging to PostgreSQL.
 
