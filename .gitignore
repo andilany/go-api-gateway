@@ -1,0 +1,44 @@
+# Environment and secrets (never commit)
+.env
+.env.local
+.env.*.local
+!.env.example
+*.pem
+*.key
+
+# Build outputs
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/gateway
+/bin/
+/dist/
+/build/
+
+# Test and coverage
+*.test
+*.out
+coverage.html
+coverage.txt
+
+# IDE and OS
+.idea/
+.vscode/
+.cursor/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Go workspace
+go.work
+go.work.sum
+
+# Vendor (if used)
+/vendor/
+
+# Docs
+docs/
